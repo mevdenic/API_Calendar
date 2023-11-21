@@ -1,0 +1,52 @@
+@media only screen and (max-width: 768px) {
+    .day-name {
+        display: none;
+    }
+    .day-name-short {
+        display: block;
+    }
+    h1,
+    .month-container,
+    .main-container {
+        margin: 1.5rem;
+    }
+    h1 {
+        text-align: center;
+    }
+    h3 {
+        font-size: 0.7rem;
+    }
+    .grid-component {
+        min-height: 50px;
+    }
+    .day-event {
+        text-align: center;
+        margin: 0.2rem;
+    }
+    .event-name,
+    .event-detail {
+        padding: 0.2rem 0.2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1,
+    .month-container,
+    .main-container {
+        margin: 0.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .month-year {
+        font-size: 1.25rem;
+    }
+    .day-event {
+        font-size: 0.6rem;
+        margin: 0.1rem;
+    }
+    .event-name,
+    .event-detail {
+        padding: 0.2rem 0.1rem;
+    }
+}

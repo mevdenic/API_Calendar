@@ -1,0 +1,32 @@
+.month-container {
+    margin: 0 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid $secondaryColor;
+    border-radius: 25%;
+    cursor: pointer;
+    color: $primaryColor;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    border: 1px solid $primaryColor;
+}
+
+.btn-left:hover {
+    transform: translateX(-0.2rem);
+}
+.btn-right:hover {
+    transform: translateX(0.2rem);
+}
